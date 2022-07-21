@@ -1,0 +1,50 @@
+h2 {
+    width: 100%;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    margin-right: 10px;
+    padding: 8px;
+    color: white;
+    font-size: medium;
+    background-color: #0e3c7e;
+    border: none;
+    border-radius: 5px;
+}
+
+p.flavor {
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    margin: 0;
+}
+
+.ad-box {
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fff;
+    border: 5px solid white;
+    box-shadow: 0 0 10px black;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-left: 20px;
+}
+
+.dark-theme {
+    background-color: white;
+    color: #000;
+    border: 5px solid #222;
+    box-shadow: 0 0 10px black;
+}

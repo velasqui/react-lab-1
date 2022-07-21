@@ -1,0 +1,10 @@
+header {
+    width: 100%;
+    border-bottom: 5px solid lightgray;
+    color: #0e3c7e;
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
