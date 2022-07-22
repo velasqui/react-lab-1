@@ -6,11 +6,29 @@ function AdDesigner() {
     const [theme, setTheme] = useState(false);
     const [count, setCount] = useState(70);
 
+    const handleCoconutFlavor = () => {
+        if (flavor) {
+            setFlavor('Coconut');
+        };
+    }
+
+    const handleMangoFlavor = () => {
+        if (flavor) {
+            setFlavor('Mango');
+        };
+    }
+
+    const handleRaspberryFlavor = () => {
+        if (flavor) {
+            setFlavor('Raspberry');
+        };
+    }
+
     const lightTheme = () => {
-        setTheme(false);
+        setTheme(true);
     };
     const darkTheme = () => {
-        setTheme(true);
+        setTheme(false);
     };
 
     const incrementCount = () => {
@@ -22,7 +40,7 @@ function AdDesigner() {
     };
 
     return (
-        <div>
+        <div className="ad-designer">
             <h2>Ad Designer</h2>
 
             <div className={`ad-box ${theme === true && 'dark-theme'}`}>
@@ -32,22 +50,24 @@ function AdDesigner() {
 
             <div className='buttons'>
                 <h3>What to Support</h3>
-                <button>Coconut</button>
-                <button>Mango</button>
-                <button>Raspberry</button>
+                <button className={`${flavor === 'Coconut' && 'button-picked'}`} onClick={handleCoconutFlavor}>Coconut</button>
+                <button className={`${flavor === 'Mango' && 'button-picked'}`} onClick={handleMangoFlavor}>Mango</button>
+                <button className={`${flavor === 'Raspberry' && 'button-picked'}`} onClick={handleRaspberryFlavor}>Raspberry</button>
             </div>
 
             <div className='buttons'>
                 <h3>Color Theme</h3>
-                <button onClick={lightTheme}>Light</button>
-                <button onClick={darkTheme}>Dark</button>
+                <button className={`${theme === true && 'button-picked'}`} onClick={lightTheme}>Light</button>
+                <button className={`${theme === false && 'button-picked'}`} onClick={darkTheme}>Dark</button>
             </div>
 
             <div className='buttons'>
                 <h3>Font Size</h3>
+                <div className='counter'>
                 <button onClick={decrementCount}>Down</button>
-                <p>{count}</p>
+                <p className='count'>{count}</p>
                 <button onClick={incrementCount}>Up</button>
+                </div>
             </div>
 
         </div>

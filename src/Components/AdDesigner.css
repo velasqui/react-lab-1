@@ -1,8 +1,11 @@
+.ad-designer {
+    margin-left: 20px;
+}
+
 h2 {
-    width: 100%;
+    width: 100vw;
     font-family: 'Caveat', cursive;
     font-size: 50px;
-    margin-left: 20px;
     margin-bottom: 20px;
 }
 
@@ -15,9 +18,10 @@ button {
     padding: 8px;
     color: white;
     font-size: medium;
-    background-color: #0e3c7e;
+    background-color: #1e60a9;
     border: none;
     border-radius: 5px;
+    align-self: start;
 }
 
 p.flavor {
@@ -26,10 +30,18 @@ p.flavor {
     margin: 0;
 }
 
+/* p.count {
+    text-align: left;
+} */
+
+div.counter {
+    display: flex;
+    align-items: center;
+}
+
 .ad-box {
     width: 250px;
     height: 150px;
-    margin-left: 20px;
     background-color: #222;
     color: #fff;
     border: 5px solid white;
@@ -38,13 +50,13 @@ p.flavor {
     align-items: center;
 }
 
-.buttons {
-    margin-left: 20px;
-}
-
 .dark-theme {
     background-color: white;
     color: #000;
     border: 5px solid #222;
     box-shadow: 0 0 10px black;
+}
+
+.button-picked {
+    background-color: gray;
 }

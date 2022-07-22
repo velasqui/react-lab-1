@@ -1,0 +1,26 @@
+.votes {
+    margin-left: 20px;
+}
+
+.coconut-bar {
+    height: 20px;
+    background-color: #965a3e;
+}
+
+.mango-bar {
+    height: 20px;
+    background-color: #ffc324;
+}
+
+.raspberry-bar {
+    height: 20px;
+    background-color: #E30B5C;
+}
+
+p.flavors {
+    text-align: left;
+}
+
+p.empty-votes {
+    text-align: left;
+}
