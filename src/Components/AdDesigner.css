@@ -3,7 +3,7 @@
 }
 
 h2 {
-    width: 100vw;
+    /* width: 100vw; */
     font-family: 'Caveat', cursive;
     font-size: 50px;
     margin-bottom: 20px;
@@ -60,3 +60,4 @@ div.counter {
 .button-picked {
     background-color: gray;
 }
+

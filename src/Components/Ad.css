@@ -1,0 +1,6 @@
+.dark-theme {
+    background-color: white;
+    color: #000;
+    border: 5px solid #222;
+    box-shadow: 0 0 10px black;
+}

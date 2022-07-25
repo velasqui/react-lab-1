@@ -1,3 +1,15 @@
 * {
     font-family: sans-serif;
 }
+
+.ads {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 768px) {
+    .content-section {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

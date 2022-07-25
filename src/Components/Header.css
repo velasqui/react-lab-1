@@ -1,10 +1,16 @@
 header {
-    width: 100%;
-    border-bottom: 5px solid lightgray;
     color: #0e3c7e;
     font-family: 'Caveat', cursive;
     font-size: 100px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
+    align-items: center; */
+}
+
+.header {
+    border-bottom: 5px solid lightgray;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }

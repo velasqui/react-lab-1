@@ -46,7 +46,6 @@ function Votes() {
                 </div>)}
             </div>
         </div>
-
     )
 }
 

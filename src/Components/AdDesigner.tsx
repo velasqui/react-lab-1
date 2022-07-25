@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './AdDesigner.css'
+import Ad from './Ad';
 
 function AdDesigner() {
     const [flavor, setFlavor] = useState('Coconut');
